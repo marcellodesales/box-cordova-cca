@@ -8,6 +8,6 @@ sudo apt-get update -y
 sudo apt-get install -y nodejs
 
 # Install global nodejs packages
-sudo npm install -g grunt-cli
-sudo npm install -g cordova
+sudo npm install -g gulp-cli
+sudo npm install -g cordova ionic
 sudo npm install -g bower
