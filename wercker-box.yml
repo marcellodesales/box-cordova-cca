@@ -13,6 +13,7 @@ package:
   - cordova@4.2.0
   - nodejs@0.10.35
   - gulp-cli@3.8.11
+  - ionic@1.3.11
   - android@24.0.2
 script: |
   sdk_version="24.0.2"
@@ -30,8 +31,8 @@ script: |
   npm --version
   java -version
   ant -version
-  grunt --version
-  cordova --version
+  gulp --version
+  ionic --version
   bower --version
 
   echo "Complete"
