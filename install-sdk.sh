@@ -27,4 +27,4 @@ echo "export PATH=\"${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 do
   echo 'y'
   sleep 2
-done) | android update sdk -u -a -t 1,2,3,16,98,99
+done) | android update sdk -u -a -t 1,2,3,22,111,112
