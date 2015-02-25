@@ -1,40 +1,32 @@
-name: Android with Angularjs and Ionic
-version: 0.0.1
+name: cordova
+version: 0.0.10
 inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
-description: wercker box for building, testing and deploying ionic apps for android
+description: wercker box for building, testing and deploying cordova apps for android
 keywords:
-  - ionic
-  - angularjs
+  - cordova
   - android
   - phonegap
-packages:
-  - cordova@4.2.0
-  - nodejs@0.10.35
-  - gulp-cli@3.8.11
-  - ionic@1.3.11
-  - android@24.0.2
+package:
+  - cordova@3.5.0
+  - nodejs@0.10.31
+  - gulp-cli@0.1.13
+  - android@23.0.2
 script: |
-  sdk_version="24.0.2"
-
+  sdk_version="23.0.2"
   cd $HOME
-
   source $WERCKER_SOURCE_DIR/install-packages.sh
   source $WERCKER_SOURCE_DIR/install-nodejs.sh
   source $WERCKER_SOURCE_DIR/install-jdk.sh
   source $WERCKER_SOURCE_DIR/install-sdk.sh
-
   echo "Versions"
-
   node --version
   npm --version
   java -version
   ant -version
   gulp --version
-  ionic --version
+  cordova --version
   bower --version
-
   echo "Complete"
-
   cd $HOME
