@@ -9,7 +9,7 @@ keywords:
   - angularjs
   - android
   - phonegap
-package:
+packages:
   - cordova@4.2.0
   - nodejs@0.10.35
   - gulp-cli@3.8.11
