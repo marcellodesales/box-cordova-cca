@@ -9,12 +9,12 @@ keywords:
   - android
   - phonegap
 package:
-  - cordova@3.5.0
-  - nodejs@0.10.31
-  - gulp-cli@0.1.13
-  - android@23.0.2
+  - cordova@4.2.0
+  - nodejs@0.10.35
+  - gulp-cli@3.8.11
+  - android@24.0.2
 script: |
-  sdk_version="23.0.2"
+  sdk_version="24.0.2"
   cd $HOME
   source $WERCKER_SOURCE_DIR/install-packages.sh
   source $WERCKER_SOURCE_DIR/install-nodejs.sh
