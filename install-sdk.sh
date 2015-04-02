@@ -8,7 +8,7 @@ rm "android-sdk_r${sdk_version}-linux.tgz"
 # Set environment variables
 export ANDROID_HOME=${PWD}/android-sdk-linux
 export ANDROID_BUILD_TOOLS="21"
-export ANDROID_VERSION="4.4.2"
+export ANDROID_VERSION="5.0"
 export ANDROID_PLATFORM_TOOLS="21"
 export PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
 
