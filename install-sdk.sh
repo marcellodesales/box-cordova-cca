@@ -7,9 +7,9 @@ rm "android-sdk_r${sdk_version}-linux.tgz"
 
 # Set environment variables
 export ANDROID_HOME=${PWD}/android-sdk-linux
-export ANDROID_BUILD_TOOLS="24.0.2"
+export ANDROID_BUILD_TOOLS="24.1.2"
 export ANDROID_VERSION="4.4.2"
-export ANDROID_PLATFORM_TOOLS="24.0.2"
+export ANDROID_PLATFORM_TOOLS="24.1.2"
 export PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
 
 type android || { echo "Path: $PATH"; echo 'Android not available after installation, terminating.'; exit 1; }
