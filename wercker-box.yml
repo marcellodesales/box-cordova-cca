@@ -12,9 +12,9 @@ package:
   - cordova@4.2.0
   - nodejs@0.10.35
   - gulp-cli@3.8.11
-  - android@21.1.1
+  - android@21.1
 script: |
-  sdk_version="21.1.1"
+  sdk_version="21.1"
   cd $HOME
   source $WERCKER_SOURCE_DIR/install-packages.sh
   source $WERCKER_SOURCE_DIR/install-nodejs.sh
