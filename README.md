@@ -12,7 +12,7 @@ Examples
 
 Building CCA apps is very simple. Just create a wercker.yml file in your app... Adjust the steps below according to your specifications. Then, you can use a Deploy step to upload your APK to Amazon S3, for instance.
 
-```js
+```yml
 box: marcellodesales/cordova-cca@0.0.9
 build:
         steps:
