@@ -50,3 +50,8 @@ deploy:
                 - wantedly/pretty-slack-notify:
                         webhook_url: $SLACK_WEBHOOK_DEPLOYMENT
 ```
+
+Each step is displayed in the Wercker UI using the description used in the yml descriptor.
+
+<img src='http://s24.postimg.org/a1juefdh1/wercker.png' border='0' alt="wercker" />
+
